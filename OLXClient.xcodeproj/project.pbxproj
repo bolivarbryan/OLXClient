@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931B9A401E7C927100977419 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A3F1E7C927100977419 /* Item.swift */; };
+		931B9A421E7C95FE00977419 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A411E7C95FE00977419 /* ItemViewModel.swift */; };
+		931B9A431E7C961F00977419 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A411E7C95FE00977419 /* ItemViewModel.swift */; };
+		931B9A441E7C962200977419 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A3F1E7C927100977419 /* Item.swift */; };
+		931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A461E7C9B4000977419 /* StringExtensions.swift */; };
+		931B9A691E7CA05000977419 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931B9A611E7CA05000977419 /* Localizable.strings */; };
+		931B9A6A1E7CA05000977419 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931B9A631E7CA05000977419 /* ViewController.xib */; };
+		931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */; };
+		931B9A711E7CA9FE00977419 /* OLXNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */; };
+		931B9A731E7CACFC00977419 /* ItemCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A721E7CACFC00977419 /* ItemCoordinate.swift */; };
+		931B9A741E7CAEFB00977419 /* ItemCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A721E7CACFC00977419 /* ItemCoordinate.swift */; };
+		933B51241E788AB800071FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51231E788AB800071FEE /* AppDelegate.swift */; };
+		933B51261E788AB800071FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51251E788AB800071FEE /* ViewController.swift */; };
+		933B512C1E788AB800071FEE /* OLXClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 933B512A1E788AB800071FEE /* OLXClient.xcdatamodeld */; };
+		933B512E1E788AB800071FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933B512D1E788AB800071FEE /* Assets.xcassets */; };
+		933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B513B1E788AB800071FEE /* OLXClientTests.swift */; };
+		933B51471E788AB800071FEE /* OLXClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51461E788AB800071FEE /* OLXClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933B51381E788AB800071FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933B51181E788AB800071FEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933B511F1E788AB800071FEE;
+			remoteInfo = OLXClient;
+		};
+		933B51431E788AB800071FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933B51181E788AB800071FEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933B511F1E788AB800071FEE;
+			remoteInfo = OLXClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		931B9A3F1E7C927100977419 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Model/Item.swift; sourceTree = "<group>"; };
+		931B9A411E7C95FE00977419 /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemViewModel.swift; path = ViewModel/ItemViewModel.swift; sourceTree = "<group>"; };
+		931B9A461E7C9B4000977419 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Extensions/StringExtensions.swift; sourceTree = "<group>"; };
+		931B9A621E7CA05000977419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		931B9A641E7CA05000977419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
+		931B9A651E7CA05000977419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		931B9A661E7CA05000977419 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		931B9A6D1E7CA06000977419 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ViewController.strings; sourceTree = "<group>"; };
+		931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLXNumberFormatter.swift; path = Singleton/OLXNumberFormatter.swift; sourceTree = "<group>"; };
+		931B9A721E7CACFC00977419 /* ItemCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCoordinate.swift; path = Model/ItemCoordinate.swift; sourceTree = "<group>"; };
+		933B51201E788AB800071FEE /* OLXClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLXClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933B51231E788AB800071FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		933B51251E788AB800071FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		933B512B1E788AB800071FEE /* OLXClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OLXClient.xcdatamodel; sourceTree = "<group>"; };
+		933B512D1E788AB800071FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		933B51321E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933B51371E788AB800071FEE /* OLXClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLXClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933B513B1E788AB800071FEE /* OLXClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLXClientTests.swift; sourceTree = "<group>"; };
+		933B513D1E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933B51421E788AB800071FEE /* OLXClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLXClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933B51461E788AB800071FEE /* OLXClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLXClientUITests.swift; sourceTree = "<group>"; };
+		933B51481E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933B511D1E788AB800071FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933B51341E788AB800071FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933B513F1E788AB800071FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931B9A3A1E7C894900977419 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A3F1E7C927100977419 /* Item.swift */,
+				931B9A721E7CACFC00977419 /* ItemCoordinate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		931B9A3B1E7C895100977419 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A411E7C95FE00977419 /* ItemViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		931B9A451E7C9B1500977419 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A461E7C9B4000977419 /* StringExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		931B9A601E7CA05000977419 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A611E7CA05000977419 /* Localizable.strings */,
+				931B9A631E7CA05000977419 /* ViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		931B9A6E1E7CA74800977419 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		933B51171E788AB800071FEE = {
+			isa = PBXGroup;
+			children = (
+				933B51221E788AB800071FEE /* OLXClient */,
+				933B513A1E788AB800071FEE /* OLXClientTests */,
+				933B51451E788AB800071FEE /* OLXClientUITests */,
+				933B51211E788AB800071FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		933B51211E788AB800071FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933B51201E788AB800071FEE /* OLXClient.app */,
+				933B51371E788AB800071FEE /* OLXClientTests.xctest */,
+				933B51421E788AB800071FEE /* OLXClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933B51221E788AB800071FEE /* OLXClient */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A6E1E7CA74800977419 /* Singleton */,
+				931B9A601E7CA05000977419 /* View */,
+				931B9A451E7C9B1500977419 /* Extensions */,
+				931B9A3B1E7C895100977419 /* ViewModel */,
+				931B9A3A1E7C894900977419 /* Model */,
+				933B51231E788AB800071FEE /* AppDelegate.swift */,
+				933B51251E788AB800071FEE /* ViewController.swift */,
+				933B512D1E788AB800071FEE /* Assets.xcassets */,
+				933B51321E788AB800071FEE /* Info.plist */,
+				933B512A1E788AB800071FEE /* OLXClient.xcdatamodeld */,
+			);
+			path = OLXClient;
+			sourceTree = "<group>";
+		};
+		933B513A1E788AB800071FEE /* OLXClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				933B513B1E788AB800071FEE /* OLXClientTests.swift */,
+				933B513D1E788AB800071FEE /* Info.plist */,
+			);
+			path = OLXClientTests;
+			sourceTree = "<group>";
+		};
+		933B51451E788AB800071FEE /* OLXClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				933B51461E788AB800071FEE /* OLXClientUITests.swift */,
+				933B51481E788AB800071FEE /* Info.plist */,
+			);
+			path = OLXClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933B511F1E788AB800071FEE /* OLXClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933B514B1E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClient" */;
+			buildPhases = (
+				933B511C1E788AB800071FEE /* Sources */,
+				933B511D1E788AB800071FEE /* Frameworks */,
+				933B511E1E788AB800071FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLXClient;
+			productName = OLXClient;
+			productReference = 933B51201E788AB800071FEE /* OLXClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		933B51361E788AB800071FEE /* OLXClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933B514E1E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClientTests" */;
+			buildPhases = (
+				933B51331E788AB800071FEE /* Sources */,
+				933B51341E788AB800071FEE /* Frameworks */,
+				933B51351E788AB800071FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933B51391E788AB800071FEE /* PBXTargetDependency */,
+			);
+			name = OLXClientTests;
+			productName = OLXClientTests;
+			productReference = 933B51371E788AB800071FEE /* OLXClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		933B51411E788AB800071FEE /* OLXClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933B51511E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClientUITests" */;
+			buildPhases = (
+				933B513E1E788AB800071FEE /* Sources */,
+				933B513F1E788AB800071FEE /* Frameworks */,
+				933B51401E788AB800071FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933B51441E788AB800071FEE /* PBXTargetDependency */,
+			);
+			name = OLXClientUITests;
+			productName = OLXClientUITests;
+			productReference = 933B51421E788AB800071FEE /* OLXClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933B51181E788AB800071FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bolivarbryan;
+				TargetAttributes = {
+					933B511F1E788AB800071FEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K87XPR878Y;
+						ProvisioningStyle = Automatic;
+					};
+					933B51361E788AB800071FEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K87XPR878Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 933B511F1E788AB800071FEE;
+					};
+					933B51411E788AB800071FEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K87XPR878Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 933B511F1E788AB800071FEE;
+					};
+				};
+			};
+			buildConfigurationList = 933B511B1E788AB800071FEE /* Build configuration list for PBXProject "OLXClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 933B51171E788AB800071FEE;
+			productRefGroup = 933B51211E788AB800071FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933B511F1E788AB800071FEE /* OLXClient */,
+				933B51361E788AB800071FEE /* OLXClientTests */,
+				933B51411E788AB800071FEE /* OLXClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933B511E1E788AB800071FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933B512E1E788AB800071FEE /* Assets.xcassets in Resources */,
+				931B9A6A1E7CA05000977419 /* ViewController.xib in Resources */,
+				931B9A691E7CA05000977419 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933B51351E788AB800071FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933B51401E788AB800071FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933B511C1E788AB800071FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */,
+				931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */,
+				931B9A401E7C927100977419 /* Item.swift in Sources */,
+				933B51261E788AB800071FEE /* ViewController.swift in Sources */,
+				933B512C1E788AB800071FEE /* OLXClient.xcdatamodeld in Sources */,
+				931B9A421E7C95FE00977419 /* ItemViewModel.swift in Sources */,
+				931B9A731E7CACFC00977419 /* ItemCoordinate.swift in Sources */,
+				933B51241E788AB800071FEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933B51331E788AB800071FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */,
+				931B9A741E7CAEFB00977419 /* ItemCoordinate.swift in Sources */,
+				931B9A441E7C962200977419 /* Item.swift in Sources */,
+				931B9A431E7C961F00977419 /* ItemViewModel.swift in Sources */,
+				931B9A711E7CA9FE00977419 /* OLXNumberFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933B513E1E788AB800071FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933B51471E788AB800071FEE /* OLXClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		933B51391E788AB800071FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933B511F1E788AB800071FEE /* OLXClient */;
+			targetProxy = 933B51381E788AB800071FEE /* PBXContainerItemProxy */;
+		};
+		933B51441E788AB800071FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933B511F1E788AB800071FEE /* OLXClient */;
+			targetProxy = 933B51431E788AB800071FEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		931B9A611E7CA05000977419 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931B9A621E7CA05000977419 /* Base */,
+				931B9A651E7CA05000977419 /* en */,
+				931B9A661E7CA05000977419 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		931B9A631E7CA05000977419 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931B9A641E7CA05000977419 /* Base */,
+				931B9A6D1E7CA06000977419 /* es */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		933B51491E788AB800071FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		933B514A1E788AB800071FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933B514C1E788AB800071FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = OLXClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		933B514D1E788AB800071FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = OLXClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		933B514F1E788AB800071FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = OLXClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLXClient.app/OLXClient";
+			};
+			name = Debug;
+		};
+		933B51501E788AB800071FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = OLXClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLXClient.app/OLXClient";
+			};
+			name = Release;
+		};
+		933B51521E788AB800071FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = OLXClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OLXClient;
+			};
+			name = Debug;
+		};
+		933B51531E788AB800071FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = OLXClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OLXClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933B511B1E788AB800071FEE /* Build configuration list for PBXProject "OLXClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933B51491E788AB800071FEE /* Debug */,
+				933B514A1E788AB800071FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933B514B1E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933B514C1E788AB800071FEE /* Debug */,
+				933B514D1E788AB800071FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933B514E1E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933B514F1E788AB800071FEE /* Debug */,
+				933B51501E788AB800071FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933B51511E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933B51521E788AB800071FEE /* Debug */,
+				933B51531E788AB800071FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		933B512A1E788AB800071FEE /* OLXClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				933B512B1E788AB800071FEE /* OLXClient.xcdatamodel */,
+			);
+			currentVersion = 933B512B1E788AB800071FEE /* OLXClient.xcdatamodel */;
+			path = OLXClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 933B51181E788AB800071FEE /* Project object */;
+}
