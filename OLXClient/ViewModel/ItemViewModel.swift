@@ -9,6 +9,7 @@
 import Foundation
 
 final class ItemViewModel: Equatable {
+    //MARK: Properties
     private var item: Item
     var titleText: String? {
         return item.title

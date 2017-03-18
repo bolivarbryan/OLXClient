@@ -9,6 +9,7 @@
 import Foundation
 
 extension String {
+    //MARK: Methods
     func localized() -> String {
         return NSLocalizedString(self, comment: "")
     }

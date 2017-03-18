@@ -19,7 +19,7 @@ class OLXClientTests: XCTestCase {
         super.tearDown()
     }
     
-    //MARK: BolivarBryan Unit Tests
+    //MARK: Unit Tests
     func testItemViewModelWithiPhone7() {
         let iPhone7 = Item(picture: "", title: "iPhone 7", price: 10000, currency: "$", details: "Vendo iPhone 7 a precio de huevo", latitude: -31.0, longitude: -64.2169, featured: true, displayLocation: "Cordoba", imageHeight: 1024, dateTime: Date(timeIntervalSince1970: 0 ))
         let iPhone7ViewModel = ItemViewModel(item: iPhone7)

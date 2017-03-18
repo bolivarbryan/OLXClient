@@ -10,7 +10,7 @@ import Foundation
 
 final class OLXNumberFormatter {
     
-    // Can't init is singleton
+    // MARK: Singleton
     private init() {
         numberFormatter = NumberFormatter()
         numberFormatter.minimumFractionDigits = 0

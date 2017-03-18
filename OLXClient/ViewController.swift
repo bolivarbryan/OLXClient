@@ -9,8 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //MARK: Constants
     private let kWelcomeText = "Welcome"
     
+    //MARK: Variables
+    
+    //MARK: View Cycle Life
     override func viewDidLoad() {
         super.viewDidLoad()
          self.title = kWelcomeText.localized()
@@ -20,7 +24,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    //MARK: Methods
 }
+
+
 
