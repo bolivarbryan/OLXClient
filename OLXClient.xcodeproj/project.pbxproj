@@ -14,6 +14,10 @@
 		931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A461E7C9B4000977419 /* StringExtensions.swift */; };
 		931B9A691E7CA05000977419 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931B9A611E7CA05000977419 /* Localizable.strings */; };
 		931B9A6A1E7CA05000977419 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931B9A631E7CA05000977419 /* ViewController.xib */; };
+		931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */; };
+		931B9A711E7CA9FE00977419 /* OLXNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */; };
+		931B9A731E7CACFC00977419 /* ItemCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A721E7CACFC00977419 /* ItemCoordinate.swift */; };
+		931B9A741E7CAEFB00977419 /* ItemCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A721E7CACFC00977419 /* ItemCoordinate.swift */; };
 		933B51241E788AB800071FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51231E788AB800071FEE /* AppDelegate.swift */; };
 		933B51261E788AB800071FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51251E788AB800071FEE /* ViewController.swift */; };
 		933B512C1E788AB800071FEE /* OLXClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 933B512A1E788AB800071FEE /* OLXClient.xcdatamodeld */; };
@@ -48,6 +52,8 @@
 		931B9A651E7CA05000977419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		931B9A661E7CA05000977419 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		931B9A6D1E7CA06000977419 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ViewController.strings; sourceTree = "<group>"; };
+		931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLXNumberFormatter.swift; path = Singleton/OLXNumberFormatter.swift; sourceTree = "<group>"; };
+		931B9A721E7CACFC00977419 /* ItemCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCoordinate.swift; path = Model/ItemCoordinate.swift; sourceTree = "<group>"; };
 		933B51201E788AB800071FEE /* OLXClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLXClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B51231E788AB800071FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		933B51251E788AB800071FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				931B9A3F1E7C927100977419 /* Item.swift */,
+				931B9A721E7CACFC00977419 /* ItemCoordinate.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -120,6 +127,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		931B9A6E1E7CA74800977419 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
 		933B51171E788AB800071FEE = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +158,7 @@
 		933B51221E788AB800071FEE /* OLXClient */ = {
 			isa = PBXGroup;
 			children = (
+				931B9A6E1E7CA74800977419 /* Singleton */,
 				931B9A601E7CA05000977419 /* View */,
 				931B9A451E7C9B1500977419 /* Extensions */,
 				931B9A3B1E7C895100977419 /* ViewModel */,
@@ -313,10 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */,
+				931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */,
 				931B9A401E7C927100977419 /* Item.swift in Sources */,
 				933B51261E788AB800071FEE /* ViewController.swift in Sources */,
 				933B512C1E788AB800071FEE /* OLXClient.xcdatamodeld in Sources */,
 				931B9A421E7C95FE00977419 /* ItemViewModel.swift in Sources */,
+				931B9A731E7CACFC00977419 /* ItemCoordinate.swift in Sources */,
 				933B51241E788AB800071FEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,8 +344,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */,
+				931B9A741E7CAEFB00977419 /* ItemCoordinate.swift in Sources */,
 				931B9A441E7C962200977419 /* Item.swift in Sources */,
 				931B9A431E7C961F00977419 /* ItemViewModel.swift in Sources */,
+				931B9A711E7CA9FE00977419 /* OLXNumberFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

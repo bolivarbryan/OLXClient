@@ -13,17 +13,20 @@ class OLXClientTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
+    //MARK: BolivarBryan Unit Tests
     func testItemViewModelWithiPhone7() {
-        let iPhone7 = Item(picture: "", title: "iPhone 7", price: 10000, currency: "$", details: "Vendo iPhone 7 a precio de huevo", latitude: -31.0, longitude: -64.2169, featured: true, displayLocation: "Cordoba", imageHeight: 1024, dateTime: Date())
+        let iPhone7 = Item(picture: "", title: "iPhone 7", price: 10000, currency: "$", details: "Vendo iPhone 7 a precio de huevo", latitude: -31.0, longitude: -64.2169, featured: true, displayLocation: "Cordoba", imageHeight: 1024, dateTime: Date(timeIntervalSince1970: 0 ))
         let iPhone7ViewModel = ItemViewModel(item: iPhone7)
+        let coordinate = ItemCoordinate(latitude: -31.0, longitude: -64.2169)
+        
         XCTAssertEqual(iPhone7ViewModel.priceText, "$10000")
+        XCTAssertEqual(iPhone7ViewModel.coordinate,  coordinate )
+        XCTAssertEqual(iPhone7ViewModel.dateTimeText, "31/12/1970")
     }
 }

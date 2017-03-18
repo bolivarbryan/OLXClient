@@ -8,18 +8,18 @@
 
 import Foundation
 
-final class Item {
-    var picture: String?
-    var title: String?
-    var price: Double?
-    var currency: String?
-    var details: String?
-    var latitude: Double?
-    var longitude: Double?
+final class Item: Equatable {
+    var picture: String
+    var title: String
+    var price: Double
+    var currency: String
+    var details: String
+    var latitude: Double
+    var longitude: Double
     var featured: Bool
-    var displayLocation: String?
-    var imageHeight: Int?
-    var dateTime: Date?
+    var displayLocation: String
+    var imageHeight: Int
+    var dateTime: Date
     
     init(picture: String, title: String, price: Double, currency: String, details:String, latitude: Double, longitude: Double, featured: Bool, displayLocation: String, imageHeight: Int, dateTime: Date) {
         self.picture = picture
@@ -34,4 +34,9 @@ final class Item {
         self.imageHeight = imageHeight
         self.dateTime = dateTime
     }
+}
+
+
+func == (lhs: Item, rhs: Item) -> Bool{
+    return (lhs.latitude == rhs.latitude) && (lhs.longitude == rhs.longitude)
 }

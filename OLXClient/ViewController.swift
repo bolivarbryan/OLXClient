@@ -9,10 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    private let kWelcomeText = "Welcome"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-         self.title = "Welcome".localized()
+         self.title = kWelcomeText.localized()
     }
 
     override func didReceiveMemoryWarning() {
