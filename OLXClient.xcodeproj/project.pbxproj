@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84715FB78C6DEAC9C8017595 /* Pods_OLXClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B03ACF29DE080BDB4F5D5D /* Pods_OLXClientTests.framework */; };
 		931B9A401E7C927100977419 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A3F1E7C927100977419 /* Item.swift */; };
 		931B9A421E7C95FE00977419 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A411E7C95FE00977419 /* ItemViewModel.swift */; };
 		931B9A431E7C961F00977419 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A411E7C95FE00977419 /* ItemViewModel.swift */; };
@@ -24,6 +25,8 @@
 		933B512E1E788AB800071FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933B512D1E788AB800071FEE /* Assets.xcassets */; };
 		933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B513B1E788AB800071FEE /* OLXClientTests.swift */; };
 		933B51471E788AB800071FEE /* OLXClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51461E788AB800071FEE /* OLXClientUITests.swift */; };
+		9E1C2C33CC1658FE822EAB8E /* Pods_OLXClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484A4B7C794485E7FF68C990 /* Pods_OLXClient.framework */; };
+		BC01D48D776E4D13F5F3CE9C /* Pods_OLXClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511878D6B12901E52A9594B2 /* Pods_OLXClientUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08BA5DEC1C8D6FF80E618731 /* Pods-OLXClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClientUITests/Pods-OLXClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C1188CDAC7011B87C26F775 /* Pods-OLXClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClientTests/Pods-OLXClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		484A4B7C794485E7FF68C990 /* Pods_OLXClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLXClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		511878D6B12901E52A9594B2 /* Pods_OLXClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLXClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E8D02834EFFA12DB6BB5EE /* Pods-OLXClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClient/Pods-OLXClient.debug.xcconfig"; sourceTree = "<group>"; };
+		72B03ACF29DE080BDB4F5D5D /* Pods_OLXClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLXClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81967052F12535BA41AE7141 /* Pods-OLXClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClientUITests/Pods-OLXClientUITests.release.xcconfig"; sourceTree = "<group>"; };
 		931B9A3F1E7C927100977419 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Model/Item.swift; sourceTree = "<group>"; };
 		931B9A411E7C95FE00977419 /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemViewModel.swift; path = ViewModel/ItemViewModel.swift; sourceTree = "<group>"; };
 		931B9A461E7C9B4000977419 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Extensions/StringExtensions.swift; sourceTree = "<group>"; };
@@ -66,6 +76,8 @@
 		933B51421E788AB800071FEE /* OLXClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLXClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B51461E788AB800071FEE /* OLXClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLXClientUITests.swift; sourceTree = "<group>"; };
 		933B51481E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97954BE49B6C646693A83D1 /* Pods-OLXClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClientTests/Pods-OLXClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		E164321FFCB5D4ED4EBB7778 /* Pods-OLXClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClient/Pods-OLXClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1C2C33CC1658FE822EAB8E /* Pods_OLXClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84715FB78C6DEAC9C8017595 /* Pods_OLXClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC01D48D776E4D13F5F3CE9C /* Pods_OLXClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +157,8 @@
 				933B513A1E788AB800071FEE /* OLXClientTests */,
 				933B51451E788AB800071FEE /* OLXClientUITests */,
 				933B51211E788AB800071FEE /* Products */,
+				938721CF815DF8C96388EAB6 /* Pods */,
+				F51BD47E4C4F2F8B6EA3E3B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +207,29 @@
 			path = OLXClientUITests;
 			sourceTree = "<group>";
 		};
+		938721CF815DF8C96388EAB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51E8D02834EFFA12DB6BB5EE /* Pods-OLXClient.debug.xcconfig */,
+				E164321FFCB5D4ED4EBB7778 /* Pods-OLXClient.release.xcconfig */,
+				1C1188CDAC7011B87C26F775 /* Pods-OLXClientTests.debug.xcconfig */,
+				C97954BE49B6C646693A83D1 /* Pods-OLXClientTests.release.xcconfig */,
+				08BA5DEC1C8D6FF80E618731 /* Pods-OLXClientUITests.debug.xcconfig */,
+				81967052F12535BA41AE7141 /* Pods-OLXClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F51BD47E4C4F2F8B6EA3E3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				484A4B7C794485E7FF68C990 /* Pods_OLXClient.framework */,
+				72B03ACF29DE080BDB4F5D5D /* Pods_OLXClientTests.framework */,
+				511878D6B12901E52A9594B2 /* Pods_OLXClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 933B514B1E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClient" */;
 			buildPhases = (
+				D0DE13519BB743F14339DCAD /* [CP] Check Pods Manifest.lock */,
 				933B511C1E788AB800071FEE /* Sources */,
 				933B511D1E788AB800071FEE /* Frameworks */,
 				933B511E1E788AB800071FEE /* Resources */,
+				C94E47E3FC3EFC0B28734A54 /* [CP] Embed Pods Frameworks */,
+				B190FAD1DE86EB1BD7E084B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 933B514E1E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClientTests" */;
 			buildPhases = (
+				AC32C858803EFA34B25F36A2 /* [CP] Check Pods Manifest.lock */,
 				933B51331E788AB800071FEE /* Sources */,
 				933B51341E788AB800071FEE /* Frameworks */,
 				933B51351E788AB800071FEE /* Resources */,
+				B240EFA3AC952E36269EB1F7 /* [CP] Embed Pods Frameworks */,
+				476A94C06489A612AA4B0E1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 933B51511E788AB800071FEE /* Build configuration list for PBXNativeTarget "OLXClientUITests" */;
 			buildPhases = (
+				969B241446FE3C7C8677B8B5 /* [CP] Check Pods Manifest.lock */,
 				933B513E1E788AB800071FEE /* Sources */,
 				933B513F1E788AB800071FEE /* Frameworks */,
 				933B51401E788AB800071FEE /* Resources */,
+				8A3E90714140475CB12F6012 /* [CP] Embed Pods Frameworks */,
+				2D9A194DB922618978C32261 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -322,6 +371,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9A194DB922618978C32261 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLXClientUITests/Pods-OLXClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		476A94C06489A612AA4B0E1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLXClientTests/Pods-OLXClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3E90714140475CB12F6012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLXClientUITests/Pods-OLXClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		969B241446FE3C7C8677B8B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC32C858803EFA34B25F36A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B190FAD1DE86EB1BD7E084B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLXClient/Pods-OLXClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B240EFA3AC952E36269EB1F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLXClientTests/Pods-OLXClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94E47E3FC3EFC0B28734A54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLXClient/Pods-OLXClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DE13519BB743F14339DCAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		933B511C1E788AB800071FEE /* Sources */ = {
@@ -492,6 +679,7 @@
 		};
 		933B514C1E788AB800071FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E8D02834EFFA12DB6BB5EE /* Pods-OLXClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K87XPR878Y;
@@ -506,6 +694,7 @@
 		};
 		933B514D1E788AB800071FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E164321FFCB5D4ED4EBB7778 /* Pods-OLXClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K87XPR878Y;
@@ -520,6 +709,7 @@
 		};
 		933B514F1E788AB800071FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1188CDAC7011B87C26F775 /* Pods-OLXClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +725,7 @@
 		};
 		933B51501E788AB800071FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97954BE49B6C646693A83D1 /* Pods-OLXClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +741,7 @@
 		};
 		933B51521E788AB800071FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BA5DEC1C8D6FF80E618731 /* Pods-OLXClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K87XPR878Y;
@@ -564,6 +756,7 @@
 		};
 		933B51531E788AB800071FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81967052F12535BA41AE7141 /* Pods-OLXClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K87XPR878Y;

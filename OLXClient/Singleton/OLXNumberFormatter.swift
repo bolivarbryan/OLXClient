@@ -10,7 +10,7 @@ import Foundation
 
 final class OLXNumberFormatter {
     
-    // Can't init is singleton
+    //MARK: Initializer
     private init() {
         numberFormatter = NumberFormatter()
         numberFormatter.minimumFractionDigits = 0
@@ -29,6 +29,5 @@ final class OLXNumberFormatter {
         let value = numberFormatter.string(from: numberObject)
         return value
     }
-    
     
 }
