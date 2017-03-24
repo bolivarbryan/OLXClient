@@ -7,11 +7,18 @@ target 'OLXClient' do
 
   # Pods for OLXClient
   pod 'RealmSwift'
+  pod 'Alamofire'
+  pod 'AlamofireObjectMapper'
+  pod 'SDWebImage'
 
   target 'OLXClientTests' do
     inherit! :search_paths
     # Pods for testing
       pod 'RealmSwift'
+      pod 'Alamofire'
+      pod 'AlamofireObjectMapper'
+      pod 'SDWebImage'
+
   end
 
   target 'OLXClientUITests' do

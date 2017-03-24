@@ -10,6 +10,7 @@ import Foundation
 
 final class ItemViewModel: Equatable {
     private var item: Item
+    
     var titleText: String? {
         return item.title
     }
@@ -49,6 +50,10 @@ final class ItemViewModel: Equatable {
     
     var idValue: String {
         return "\(item.id)"
+    }
+    
+    var imageURL: URL? {
+        return URL(string: item.picture)
     }
     
     init(item: Item) {

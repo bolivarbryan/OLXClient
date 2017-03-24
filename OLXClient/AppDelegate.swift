@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         intantiateHomeController()
         
+
+        
         return true
     }
 
@@ -97,10 +99,12 @@ extension AppDelegate {
     func intantiateHomeController() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let initialViewController = ViewController(nibName: "ViewController", bundle: nil)
+        let initialViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
         let navigationController = UINavigationController(rootViewController: initialViewController)
         navigationController.navigationBar.isTranslucent = false
-        
+        navigationController.navigationBar.barTintColor = UIColor.navigationBarColor()
+        navigationController.navigationBar.tintColor = UIColor.white
+        navigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
 

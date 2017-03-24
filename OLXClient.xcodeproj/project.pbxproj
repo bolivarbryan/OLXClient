@@ -14,18 +14,30 @@
 		931B9A441E7C962200977419 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A3F1E7C927100977419 /* Item.swift */; };
 		931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A461E7C9B4000977419 /* StringExtensions.swift */; };
 		931B9A691E7CA05000977419 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931B9A611E7CA05000977419 /* Localizable.strings */; };
-		931B9A6A1E7CA05000977419 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931B9A631E7CA05000977419 /* ViewController.xib */; };
 		931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */; };
 		931B9A711E7CA9FE00977419 /* OLXNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */; };
 		931B9A731E7CACFC00977419 /* ItemCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A721E7CACFC00977419 /* ItemCoordinate.swift */; };
 		931B9A741E7CAEFB00977419 /* ItemCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B9A721E7CACFC00977419 /* ItemCoordinate.swift */; };
 		933B51241E788AB800071FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51231E788AB800071FEE /* AppDelegate.swift */; };
-		933B51261E788AB800071FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51251E788AB800071FEE /* ViewController.swift */; };
 		933B512C1E788AB800071FEE /* OLXClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 933B512A1E788AB800071FEE /* OLXClient.xcdatamodeld */; };
 		933B512E1E788AB800071FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933B512D1E788AB800071FEE /* Assets.xcassets */; };
 		933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B513B1E788AB800071FEE /* OLXClientTests.swift */; };
 		933B51471E788AB800071FEE /* OLXClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51461E788AB800071FEE /* OLXClientUITests.swift */; };
-		93FA3AF91E84A970005B94A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3AF81E84A970005B94A6 /* Model.swift */; };
+		93FA3AFC1E84C888005B94A6 /* OLXApiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3AFB1E84C888005B94A6 /* OLXApiRequests.swift */; };
+		93FA3AFD1E84C888005B94A6 /* OLXApiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3AFB1E84C888005B94A6 /* OLXApiRequests.swift */; };
+		93FA3AFF1E856525005B94A6 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3AFE1E856525005B94A6 /* DateExtensions.swift */; };
+		93FA3B041E85741C005B94A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3B021E85741C005B94A6 /* HomeViewController.swift */; };
+		93FA3B071E857430005B94A6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FA3B091E857430005B94A6 /* HomeViewController.xib */; };
+		93FA3B0D1E857478005B94A6 /* OLXTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3B0C1E857478005B94A6 /* OLXTheme.swift */; };
+		93FA3B121E85782A005B94A6 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3B101E85782A005B94A6 /* ItemCollectionViewCell.swift */; };
+		93FA3B131E85782A005B94A6 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FA3B111E85782A005B94A6 /* ItemCollectionViewCell.xib */; };
+		93FA3B141E857B32005B94A6 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3AFE1E856525005B94A6 /* DateExtensions.swift */; };
+		93FA3B1D1E859AB3005B94A6 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3B1B1E859AB3005B94A6 /* ItemDetailsViewController.swift */; };
+		93FA3B1E1E859AB3005B94A6 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3B1B1E859AB3005B94A6 /* ItemDetailsViewController.swift */; };
+		93FA3B1F1E859AB3005B94A6 /* ItemDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FA3B1C1E859AB3005B94A6 /* ItemDetailsViewController.xib */; };
+		93FA3B201E859AB3005B94A6 /* ItemDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FA3B1C1E859AB3005B94A6 /* ItemDetailsViewController.xib */; };
+		93FA3B281E85AFFC005B94A6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3B261E85AFFC005B94A6 /* MapViewController.swift */; };
+		93FA3B291E85AFFC005B94A6 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FA3B271E85AFFC005B94A6 /* MapViewController.xib */; };
 		9E1C2C33CC1658FE822EAB8E /* Pods_OLXClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484A4B7C794485E7FF68C990 /* Pods_OLXClient.framework */; };
 		BC01D48D776E4D13F5F3CE9C /* Pods_OLXClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511878D6B12901E52A9594B2 /* Pods_OLXClientUITests.framework */; };
 /* End PBXBuildFile section */
@@ -59,15 +71,12 @@
 		931B9A411E7C95FE00977419 /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemViewModel.swift; path = ViewModel/ItemViewModel.swift; sourceTree = "<group>"; };
 		931B9A461E7C9B4000977419 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Extensions/StringExtensions.swift; sourceTree = "<group>"; };
 		931B9A621E7CA05000977419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		931B9A641E7CA05000977419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 		931B9A651E7CA05000977419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		931B9A661E7CA05000977419 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		931B9A6D1E7CA06000977419 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ViewController.strings; sourceTree = "<group>"; };
 		931B9A6F1E7CA76A00977419 /* OLXNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLXNumberFormatter.swift; path = Singleton/OLXNumberFormatter.swift; sourceTree = "<group>"; };
 		931B9A721E7CACFC00977419 /* ItemCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCoordinate.swift; path = Model/ItemCoordinate.swift; sourceTree = "<group>"; };
 		933B51201E788AB800071FEE /* OLXClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLXClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B51231E788AB800071FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		933B51251E788AB800071FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		933B512B1E788AB800071FEE /* OLXClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OLXClient.xcdatamodel; sourceTree = "<group>"; };
 		933B512D1E788AB800071FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933B51321E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +86,18 @@
 		933B51421E788AB800071FEE /* OLXClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLXClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B51461E788AB800071FEE /* OLXClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLXClientUITests.swift; sourceTree = "<group>"; };
 		933B51481E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93FA3AF81E84A970005B94A6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		93FA3AFB1E84C888005B94A6 /* OLXApiRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLXApiRequests.swift; path = Networking/OLXApiRequests.swift; sourceTree = "<group>"; };
+		93FA3AFE1E856525005B94A6 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = Extensions/DateExtensions.swift; sourceTree = "<group>"; };
+		93FA3B021E85741C005B94A6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93FA3B081E857430005B94A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HomeViewController.xib; sourceTree = "<group>"; };
+		93FA3B0C1E857478005B94A6 /* OLXTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLXTheme.swift; path = Extensions/OLXTheme.swift; sourceTree = "<group>"; };
+		93FA3B101E85782A005B94A6 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		93FA3B111E85782A005B94A6 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		93FA3B1B1E859AB3005B94A6 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailsViewController.swift; path = ItemDetails/ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		93FA3B1C1E859AB3005B94A6 /* ItemDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemDetailsViewController.xib; path = ItemDetails/ItemDetailsViewController.xib; sourceTree = "<group>"; };
+		93FA3B211E859D8C005B94A6 /* OLXClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OLXClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		93FA3B261E85AFFC005B94A6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Map/MapViewController.swift; sourceTree = "<group>"; };
+		93FA3B271E85AFFC005B94A6 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = Map/MapViewController.xib; sourceTree = "<group>"; };
 		C97954BE49B6C646693A83D1 /* Pods-OLXClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClientTests/Pods-OLXClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		E164321FFCB5D4ED4EBB7778 /* Pods-OLXClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClient/Pods-OLXClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +135,6 @@
 			children = (
 				931B9A3F1E7C927100977419 /* Item.swift */,
 				931B9A721E7CACFC00977419 /* ItemCoordinate.swift */,
-				93FA3AF81E84A970005B94A6 /* Model.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -132,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				931B9A461E7C9B4000977419 /* StringExtensions.swift */,
+				93FA3AFE1E856525005B94A6 /* DateExtensions.swift */,
+				93FA3B0C1E857478005B94A6 /* OLXTheme.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -139,8 +160,10 @@
 		931B9A601E7CA05000977419 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				93FA3B251E85AFE5005B94A6 /* Map */,
+				93FA3B1A1E859A95005B94A6 /* ItemDetails */,
+				93FA3B011E8573FF005B94A6 /* Home */,
 				931B9A611E7CA05000977419 /* Localizable.strings */,
-				931B9A631E7CA05000977419 /* ViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,16 +201,17 @@
 		933B51221E788AB800071FEE /* OLXClient */ = {
 			isa = PBXGroup;
 			children = (
+				93FA3AFA1E84C7EE005B94A6 /* Networking */,
 				931B9A6E1E7CA74800977419 /* Singleton */,
 				931B9A601E7CA05000977419 /* View */,
 				931B9A451E7C9B1500977419 /* Extensions */,
 				931B9A3B1E7C895100977419 /* ViewModel */,
 				931B9A3A1E7C894900977419 /* Model */,
 				933B51231E788AB800071FEE /* AppDelegate.swift */,
-				933B51251E788AB800071FEE /* ViewController.swift */,
 				933B512D1E788AB800071FEE /* Assets.xcassets */,
 				933B51321E788AB800071FEE /* Info.plist */,
 				933B512A1E788AB800071FEE /* OLXClient.xcdatamodeld */,
+				93FA3B211E859D8C005B94A6 /* OLXClient-Bridging-Header.h */,
 			);
 			path = OLXClient;
 			sourceTree = "<group>";
@@ -221,6 +245,43 @@
 				81967052F12535BA41AE7141 /* Pods-OLXClientUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		93FA3AFA1E84C7EE005B94A6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				93FA3AFB1E84C888005B94A6 /* OLXApiRequests.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		93FA3B011E8573FF005B94A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93FA3B021E85741C005B94A6 /* HomeViewController.swift */,
+				93FA3B091E857430005B94A6 /* HomeViewController.xib */,
+				93FA3B101E85782A005B94A6 /* ItemCollectionViewCell.swift */,
+				93FA3B111E85782A005B94A6 /* ItemCollectionViewCell.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		93FA3B1A1E859A95005B94A6 /* ItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+				93FA3B1B1E859AB3005B94A6 /* ItemDetailsViewController.swift */,
+				93FA3B1C1E859AB3005B94A6 /* ItemDetailsViewController.xib */,
+			);
+			name = ItemDetails;
+			sourceTree = "<group>";
+		};
+		93FA3B251E85AFE5005B94A6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				93FA3B261E85AFFC005B94A6 /* MapViewController.swift */,
+				93FA3B271E85AFFC005B94A6 /* MapViewController.xib */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 		F51BD47E4C4F2F8B6EA3E3B4 /* Frameworks */ = {
@@ -311,6 +372,7 @@
 					933B511F1E788AB800071FEE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = K87XPR878Y;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					933B51361E788AB800071FEE = {
@@ -354,8 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				933B512E1E788AB800071FEE /* Assets.xcassets in Resources */,
-				931B9A6A1E7CA05000977419 /* ViewController.xib in Resources */,
+				93FA3B291E85AFFC005B94A6 /* MapViewController.xib in Resources */,
+				93FA3B1F1E859AB3005B94A6 /* ItemDetailsViewController.xib in Resources */,
+				93FA3B131E85782A005B94A6 /* ItemCollectionViewCell.xib in Resources */,
 				931B9A691E7CA05000977419 /* Localizable.strings in Resources */,
+				93FA3B071E857430005B94A6 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FA3B201E859AB3005B94A6 /* ItemDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,15 +584,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FA3AF91E84A970005B94A6 /* Model.swift in Sources */,
+				93FA3AFC1E84C888005B94A6 /* OLXApiRequests.swift in Sources */,
 				931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */,
 				931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */,
 				931B9A401E7C927100977419 /* Item.swift in Sources */,
-				933B51261E788AB800071FEE /* ViewController.swift in Sources */,
+				93FA3AFF1E856525005B94A6 /* DateExtensions.swift in Sources */,
+				93FA3B0D1E857478005B94A6 /* OLXTheme.swift in Sources */,
 				933B512C1E788AB800071FEE /* OLXClient.xcdatamodeld in Sources */,
 				931B9A421E7C95FE00977419 /* ItemViewModel.swift in Sources */,
 				931B9A731E7CACFC00977419 /* ItemCoordinate.swift in Sources */,
 				933B51241E788AB800071FEE /* AppDelegate.swift in Sources */,
+				93FA3B041E85741C005B94A6 /* HomeViewController.swift in Sources */,
+				93FA3B1D1E859AB3005B94A6 /* ItemDetailsViewController.swift in Sources */,
+				93FA3B121E85782A005B94A6 /* ItemCollectionViewCell.swift in Sources */,
+				93FA3B281E85AFFC005B94A6 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,10 +605,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FA3B141E857B32005B94A6 /* DateExtensions.swift in Sources */,
 				933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */,
 				931B9A741E7CAEFB00977419 /* ItemCoordinate.swift in Sources */,
 				931B9A441E7C962200977419 /* Item.swift in Sources */,
 				931B9A431E7C961F00977419 /* ItemViewModel.swift in Sources */,
+				93FA3AFD1E84C888005B94A6 /* OLXApiRequests.swift in Sources */,
+				93FA3B1E1E859AB3005B94A6 /* ItemDetailsViewController.swift in Sources */,
 				931B9A711E7CA9FE00977419 /* OLXNumberFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,13 +650,12 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		931B9A631E7CA05000977419 /* ViewController.xib */ = {
+		93FA3B091E857430005B94A6 /* HomeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				931B9A641E7CA05000977419 /* Base */,
-				931B9A6D1E7CA06000977419 /* es */,
+				93FA3B081E857430005B94A6 /* Base */,
 			);
-			name = ViewController.xib;
+			name = HomeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -686,12 +759,15 @@
 			baseConfigurationReference = 51E8D02834EFFA12DB6BB5EE /* Pods-OLXClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = K87XPR878Y;
 				INFOPLIST_FILE = OLXClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OLXClient/OLXClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -701,12 +777,14 @@
 			baseConfigurationReference = E164321FFCB5D4ED4EBB7778 /* Pods-OLXClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = K87XPR878Y;
 				INFOPLIST_FILE = OLXClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bolivarbryan.OLXClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OLXClient/OLXClient-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

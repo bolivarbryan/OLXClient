@@ -1,17 +1,35 @@
 PODS:
+  - Alamofire (4.3.0)
+  - AlamofireObjectMapper (4.0.1):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - ObjectMapper (2.2.2)
   - Realm (2.4.2):
     - Realm/Headers (= 2.4.2)
   - Realm/Headers (2.4.2)
   - RealmSwift (2.4.2):
     - Realm (= 2.4.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - ZOZolaZoomTransition (1.0.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
   - RealmSwift
+  - SDWebImage
+  - ZOZolaZoomTransition (~> 1.0.1)
 
 SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireObjectMapper: 842d2eed43a4d0593ff0110d54ac86a170c4519c
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
   Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
   RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ZOZolaZoomTransition: 529a1bee39aef91bf425c2ab423743163d0c6d9b
 
-PODFILE CHECKSUM: e807a0437936d2b36be62b3bb1e6f5f64f3e4e07
+PODFILE CHECKSUM: 3f7f46eb295ce1a3d5a2a5de20145e643cf46723
 
 COCOAPODS: 1.1.1

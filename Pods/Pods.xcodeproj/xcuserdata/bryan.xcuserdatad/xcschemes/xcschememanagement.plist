@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-OLXClient.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,8 +44,69 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ZOZolaZoomTransition.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0EB6DEE9CD5B9BA11804360225C3325D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>292C4CCA1D55AEDA4363F053B25A0678</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A292D2D49A72B1879188C9C76A77464</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C6ABAD8CE51D4334734C3D3C6FC347E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9502FB01641FBABB78522037E882757B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB9DC1E014FFC9BF0B068E749F083A88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEE44007CB96E2B1CED664D8B8F7891D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E17203B2022ACA23500D8FD979D3D2BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
