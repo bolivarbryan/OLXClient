@@ -7,21 +7,22 @@
 //
 
 import Foundation
-
-final class Item: Equatable {
-    var picture: String
-    var title: String
-    var price: Double
-    var currency: String
-    var details: String
-    var latitude: Double
-    var longitude: Double
-    var featured: Bool
-    var displayLocation: String
-    var imageHeight: Int
-    var dateTime: Date
+import RealmSwift
+final class Item: Object {
+    dynamic var picture: String = ""
+    dynamic var title: String = ""
+    dynamic var price: Double = 0
+    dynamic var currency: String = "$"
+    dynamic var details: String = ""
+    dynamic var latitude: Double = 0
+    dynamic var longitude: Double = 0
+    dynamic var featured: Bool = false
+    dynamic var displayLocation: String = ""
+    dynamic var imageHeight: Int = 0
+    dynamic var dateTime: Date = Date()
+    dynamic var id: Int = 0
     
-    init(picture: String, title: String, price: Double, currency: String, details:String, latitude: Double, longitude: Double, featured: Bool, displayLocation: String, imageHeight: Int, dateTime: Date) {
+    func configure(picture: String, title: String, price: Double, currency: String, details:String, latitude: Double, longitude: Double, featured: Bool, displayLocation: String, imageHeight: Int, dateTime: Date, id: Int) {
         self.picture = picture
         self.title = title
         self.price = price
@@ -33,7 +34,10 @@ final class Item: Equatable {
         self.displayLocation = displayLocation
         self.imageHeight = imageHeight
         self.dateTime = dateTime
+        self.id = id
     }
+    
+
 }
 
 

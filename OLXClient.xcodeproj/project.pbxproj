@@ -25,6 +25,7 @@
 		933B512E1E788AB800071FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933B512D1E788AB800071FEE /* Assets.xcassets */; };
 		933B513C1E788AB800071FEE /* OLXClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B513B1E788AB800071FEE /* OLXClientTests.swift */; };
 		933B51471E788AB800071FEE /* OLXClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933B51461E788AB800071FEE /* OLXClientUITests.swift */; };
+		93FA3AF91E84A970005B94A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA3AF81E84A970005B94A6 /* Model.swift */; };
 		9E1C2C33CC1658FE822EAB8E /* Pods_OLXClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484A4B7C794485E7FF68C990 /* Pods_OLXClient.framework */; };
 		BC01D48D776E4D13F5F3CE9C /* Pods_OLXClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511878D6B12901E52A9594B2 /* Pods_OLXClientUITests.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		933B51421E788AB800071FEE /* OLXClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLXClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B51461E788AB800071FEE /* OLXClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLXClientUITests.swift; sourceTree = "<group>"; };
 		933B51481E788AB800071FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FA3AF81E84A970005B94A6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C97954BE49B6C646693A83D1 /* Pods-OLXClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClientTests/Pods-OLXClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		E164321FFCB5D4ED4EBB7778 /* Pods-OLXClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLXClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLXClient/Pods-OLXClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 			children = (
 				931B9A3F1E7C927100977419 /* Item.swift */,
 				931B9A721E7CACFC00977419 /* ItemCoordinate.swift */,
+				93FA3AF81E84A970005B94A6 /* Model.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FA3AF91E84A970005B94A6 /* Model.swift in Sources */,
 				931B9A471E7C9B4000977419 /* StringExtensions.swift in Sources */,
 				931B9A701E7CA76A00977419 /* OLXNumberFormatter.swift in Sources */,
 				931B9A401E7C927100977419 /* Item.swift in Sources */,

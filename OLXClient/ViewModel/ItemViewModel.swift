@@ -36,6 +36,7 @@ final class ItemViewModel: Equatable {
     var displayLocationText: String {
         return item.displayLocation
     }
+    
     var imageHeight: Int {
         return item.imageHeight
     }
@@ -44,6 +45,10 @@ final class ItemViewModel: Equatable {
         let dateFormat = DateFormatter()
         dateFormat.dateFormat = "dd/MM/YYYY"
         return dateFormat.string(from: item.dateTime)
+    }
+    
+    var idValue: String {
+        return "\(item.id)"
     }
     
     init(item: Item) {
